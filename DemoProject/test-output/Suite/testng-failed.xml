@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test">
+    <classes>
+      <class name="SimpleProject.DemoProject.ReportsLoginLogoutTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="SimpleProject.DemoProject.ReportsLoginLogoutTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="login"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- SimpleProject.DemoProject.ReportsLoginLogoutTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

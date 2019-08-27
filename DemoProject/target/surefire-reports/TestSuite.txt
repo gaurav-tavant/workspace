@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 15.476 sec <<< FAILURE!
+login(SimpleProject.DemoProject.ReportsLoginLogoutTest)  Time elapsed: 8.688 sec  <<< FAILURE!
+java.lang.AssertionError: Incorrect Username Password
+	at org.testng.Assert.fail(Assert.java:94)
+	at SimpleProject.DemoProject.ReportsLoginLogoutTest.login(ReportsLoginLogoutTest.java:50)
+
